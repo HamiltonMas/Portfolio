@@ -60,7 +60,7 @@
 
             <div class="btn-box">
                 <a href="documents/Hamilton's resume.pdf" class="btn">Download CV</a>
-                <a href="https://documents/Hamilton's resume.pdf" class="btn">View CV</a>
+                <a href="documents/Hamilton's resume.pdf" class="btn">View CV</a>
             </div>
 
             <div class="social-icons">
@@ -185,7 +185,7 @@
                 <div class="skill-bar">
                     <div class="info">
                         <p>JavaScript</p>
-                        <p>80%</p>
+                        <p>70%</p>
                     </div>
                     <div class="bar">
                         <span class="javascript"></span>
@@ -195,10 +195,20 @@
                 <div class="skill-bar">
                     <div class="info">
                         <p>CSS</p>
-                        <p>72%</p>
+                        <p>82%</p>
                     </div>
                     <div class="bar">
                         <span class="css"></span>
+                    </div>
+                </div>
+
+                <div class="skill-bar">
+                    <div class="info">
+                        <p>Java</p>
+                        <p>96%</p>
+                    </div>
+                    <div class="bar">
+                        <span class="java"></span>
                     </div>
                 </div>
             </div>
@@ -332,12 +342,12 @@
         </div>
 
         <form action="#" class="scroll-bottom" id="contactForm">
-            <input type="text" placeholder="Your Name">
-            <input type="text" placeholder="Your Email">
-            <input type="text" placeholder="Your Address">
-            <input type="text" placeholder="Phone Number">
+            <input type="text" placeholder="Your Name" id="name" name="name" required>
+            <input type="email" placeholder="Your Email" id="email" name="email" required>
+            <input type="address" placeholder="Your Address" id="address" name="address" required>
+            <input type="number" placeholder="Phone Number" id="number" name="number" required>
 
-            <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+            <textarea name="Message" id="message" cols="30" rows="10" placeholder="Your Message" required></textarea>
             
             <div class="btn-box formBtn">
                 <button type="submit" class="btn">Send Message</button>
@@ -345,13 +355,13 @@
         </form>
     </section>
     
-
+    
      <!----------Contact section----------------------->
 
-     <footer>
+    <footer>
         <p class="scroll-scale">Copyright &copy; 2024 Hamilton Masipa || All Right Reserved</p>
         <a href="#home"><i class='bx bx-up-arrow-alt'></i></a>
-     </footer>
+    </footer>
 
 
      <!------------------Scripts--------------------------->

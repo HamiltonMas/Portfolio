@@ -506,15 +506,19 @@ section{
 }
 
 .skill-bar .bar .javascript{
-    width: 80%;
+    width: 70%;
     animation: javascript 4s;
 }
 
 .skill-bar .bar .css{
-    width: 72%;
+    width: 82%;
     animation: css 5s;
 }
 
+.skill-bar .bar .java{
+    width: 96%;
+    animation: java 6s;
+}
 
 /*----------------Skill Right-----------*/
 
@@ -793,7 +797,7 @@ footer a i{
         width: 0;
     }
     100%{
-        width: 80%;
+        width: 70%;
     }
 }
 
@@ -802,7 +806,16 @@ footer a i{
         width: 0;
     }
     100%{
-        width: 72%;
+        width: 82%;
+    }
+}
+
+@keyframes java{
+    0%{
+        width: 0;
+    }
+    100%{
+        width: 96%;
     }
 }
 
